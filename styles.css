@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: "Press Start 2P", cursive;
+}
+h1 {
+  font-size: medium;
+}
+
+h4 {
+  margin: 15px;
+}
+.main-container {
+  display: flex;
+  justify-content: center;
+  margin: 100px auto;
+}
+
+#reset-button {
+  width: 150px;
+  height: 50px;
+  margin: 50px;
+  border-radius: 10px;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
+    <title>Fighting Game</title>
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="playerOne-container">
+        <h2>Player 1</h2>
+        <img
+          src="https://i.gifer.com/origin/00/0019f6845ceaa9347b881ccbe8f5644a_w200.gif"
+          height="200px"
+        />
+        <h4>Q: Attack</h4>
+        <h4>A: Heal</h4>
+        <h2 id="playerOne-health">100</h2>
+      </div>
+
+      <div class="button-container">
+        <button id="reset-button">Reset</button>
+        <h1 id="winner-header"></h1>
+      </div>
+
+      <div class="playerTwo-container">
+        <h2>Player 2</h2>
+        <img
+          src="https://c.tenor.com/bzjVKW_HyoQAAAAC/ken-akuma.gif"
+          height="200px"
+        />
+        <h4>P: Attack</h4>
+        <h4>L: Heal</h4>
+        <h2 id="playerTwo-health">100</h2>
+      </div>
+    </div>
+
+    <script src="fightingGame.js"></script>
+  </body>
+</html>
